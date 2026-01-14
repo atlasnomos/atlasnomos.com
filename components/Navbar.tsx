@@ -25,7 +25,7 @@ export function Navbar() {
                 <Link href="/" className="flex items-center gap-3 group">
                     <div className="relative w-10 h-10 transition-transform group-hover:scale-105">
                         <Image
-                            src="/assets/logo.png"
+                            src="/assets/logo-new.png"
                             alt="ATLAS Shield Logo"
                             fill
                             className="object-contain drop-shadow-md"
