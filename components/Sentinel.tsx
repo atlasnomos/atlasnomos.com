@@ -15,7 +15,7 @@ export function Sentinel() {
                 <p className="text-gold text-sm font-bold tracking-widest uppercase mb-8">ENTERPRISE GRADE (TIER 1+)</p>
 
                 <p className="text-lg text-silver-dim mb-10 max-w-2xl mx-auto leading-relaxed">
-                    For fortress-level security, upgrade to <strong>Sentinel</strong>. A multi-party authorization oracle that signs every build artifact.
+                    Sentinel operates outside the execution environment to prevent internal compromise or self-authorization.
                 </p>
 
                 <div className="grid md:grid-cols-3 gap-6 text-left mb-12">
@@ -34,7 +34,7 @@ export function Sentinel() {
                 </div>
 
                 <Button variant="outline" size="lg" className="border-gold text-gold hover:bg-gold hover:text-navy font-bold px-8">
-                    Contact Sales for Sentinel
+                    Request design partner access
                 </Button>
             </div>
         </section>

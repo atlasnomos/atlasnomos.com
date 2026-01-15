@@ -19,7 +19,6 @@ export default function Home() {
       <FAQ />
       <Sentinel />
       <Download />
-      <Download />
       <Footer />
     </main>
   );

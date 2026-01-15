@@ -44,18 +44,17 @@ export function Hero() {
                         </span>
                     </h1>
                     <p className="text-xl text-silver-dim mb-8 leading-relaxed max-w-lg">
-                        An experimental <strong>Governance Framework</strong> for supervised AI agents.
-                        Technical controls for execution boundaries and decision logging.
+                        ATLAS NOMOS is a runtime governance kernel that enforces execution boundaries for AI systems.
                         <br />
-                        <span className="text-sm opacity-70 mt-2 block">*Not a substitute for legal compliance review.</span>
+                        <span className="text-sm opacity-70 mt-4 block">*Not a substitute for legal compliance review.</span>
                     </p>
 
                     <div className="flex flex-wrap gap-4">
                         <Button asChild size="lg" className="bg-gradient-to-br from-silver-bright to-silver hover:brightness-110 text-navy font-bold shadow-lg shadow-silver/10 h-12 px-8">
-                            <Link href="#download">Initialize Sovereignty</Link>
+                            <Link href="/kernel">Review the governance model</Link>
                         </Button>
                         <Button asChild variant="outline" size="lg" className="border-white/10 text-silver-bright hover:bg-white/5 h-12 px-8">
-                            <Link href="#problem">Why Governance?</Link>
+                            <Link href="#problem">Why Policy Fails</Link>
                         </Button>
                     </div>
                 </motion.div>

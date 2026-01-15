@@ -13,7 +13,7 @@ export function Download() {
     return (
         <section id="download" className="py-32 text-center">
             <div className="container px-6">
-                <h2 className="text-4xl font-bold text-silver-bright mb-4">Reclaim Control.</h2>
+                <h2 className="text-4xl font-bold text-silver-bright mb-4">Take Control.</h2>
                 <p className="text-xl text-silver-dim mb-12">Initialize your first governed session today.</p>
 
                 <div className="max-w-xl mx-auto mb-16">
