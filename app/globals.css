@@ -37,7 +37,7 @@
   --color-popover: var(--popover);
   --color-card-foreground: var(--card-foreground);
   --color-card: var(--card);
-  --color-navy: #010f2b;
+  --color-navy: #02122C;
   --color-navy-light: #0d2347;
   --color-navy-card: rgba(13, 35, 71, 0.4);
   --color-gold: #d4af37;
@@ -85,7 +85,7 @@
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
+  --background: #02122C;
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.205 0 0);
   --card-foreground: oklch(0.985 0 0);

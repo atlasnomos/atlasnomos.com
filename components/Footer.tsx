@@ -11,7 +11,7 @@ export function Footer() {
                     <div className="md:col-span-1">
                         <div className="flex items-center gap-3 mb-6">
                             <div className="relative w-8 h-8">
-                                <Image src="/assets/logo.png" alt="ATLAS Shield" fill className="object-contain" />
+                                <Image src="/assets/footer-logo.png" alt="ATLAS Shield" fill className="object-contain" />
                             </div>
                             <span className="font-bold text-lg text-white">ATLAS NOMOS</span>
                         </div>

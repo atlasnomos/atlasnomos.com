@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export function Download() {
     const copyCommand = () => {
-        navigator.clipboard.writeText("npm install -g @atlas/cli");
+        navigator.clipboard.writeText("npm install -g @atlasnomos/atlas");
         // Show toast here if we had toast
     };
 
@@ -20,7 +20,7 @@ export function Download() {
                     <div className="bg-black border border-white/20 rounded-lg p-6 flex flex-col md:flex-row items-center gap-4 shadow-xl">
                         <div className="flex-1 font-mono text-left w-full flex items-center gap-3 text-lg">
                             <span className="text-gold select-none">$</span>
-                            <span className="text-silver-bright">npm install -g @atlas/cli</span>
+                            <span className="text-silver-bright">npm install -g @atlasnomos/atlas</span>
                         </div>
                         <Button onClick={copyCommand} variant="ghost" size="sm" className="text-silver-dim hover:text-white hover:bg-white/10 shrink-0">
                             <Copy size={18} className="mr-2" /> Copy
