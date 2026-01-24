@@ -8,12 +8,15 @@ import { Footer } from "@/components/Footer";
 import { Testimonials } from "@/components/Testimonials";
 import { FAQ } from "@/components/FAQ";
 
+import { Aurora } from "@/components/Aurora";
+
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen">
       <Hero />
       <Features />
       <Kernel />
+      <Aurora />
       <Compliance />
       <Testimonials />
       <FAQ />

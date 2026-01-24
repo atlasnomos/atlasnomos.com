@@ -1,6 +1,6 @@
 "use client";
 
-import { AlertTriangle, Zap, ShieldAlert } from "lucide-react";
+import { AlertTriangle, Zap, ShieldAlert, Lock } from "lucide-react";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 
 export function Features() {
@@ -27,6 +27,11 @@ export function Features() {
                     title: "Strict Execution Boundaries",
                     icon: <ShieldAlert className="text-gold" size={24} />,
                     desc: "Allow-List Only fs/net policies. 100% Offline (Local Governance Mode) by default. No telemetry.",
+                },
+                {
+                    title: "PROD Mode Enforcement",
+                    icon: <Lock className="text-gold" size={24} />,
+                    desc: "In PROD, ATLAS is fail-close. Any invariant violation (config drift, bad signature) halts execution instantly.",
                 }
             ]
         }
